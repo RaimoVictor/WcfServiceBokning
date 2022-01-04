@@ -9,7 +9,7 @@ using System.Text;
 namespace WcfServiceBokning
 {
    
-    public class Service1 : IService1
+    public class Bokning : IBokning
     {
         public string GetData(int value)
         {

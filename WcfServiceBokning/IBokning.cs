@@ -11,7 +11,7 @@ namespace WcfServiceBokning
 
    
     [ServiceContract]
-    public interface IService1
+    public interface IBokning
     {
 
         [OperationContract]
