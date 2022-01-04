@@ -15,7 +15,7 @@ namespace WcfServiceBokning
     {
 
         [OperationContract]
-        string GetData(int value); //algotskommentar 
+        string GetData(int value); //algotskommentar // Victors kommentar
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
