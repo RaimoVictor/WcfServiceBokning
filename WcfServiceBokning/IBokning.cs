@@ -11,11 +11,15 @@ namespace WcfServiceBokning
 
    
     [ServiceContract]
+
     public interface IBokning //hej hej hej
+======
+    public interface IBokning //ny kommentar från algots branch / NIKLAS! x2
+
     {
 
         [OperationContract]
-        string GetData(int value);
+        string GetData(int value); //algotskommentar // Victors kommentar
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
