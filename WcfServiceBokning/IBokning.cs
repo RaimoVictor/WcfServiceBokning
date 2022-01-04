@@ -11,7 +11,7 @@ namespace WcfServiceBokning
 
    
     [ServiceContract]
-    public interface IBokning //ny kommentar från algots branch
+    public interface IBokning //hej hej hej
     {
 
         [OperationContract]
