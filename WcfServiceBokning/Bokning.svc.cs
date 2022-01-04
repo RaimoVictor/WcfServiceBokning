@@ -26,7 +26,7 @@ namespace WcfServiceBokning
             {
                 composite.StringValue += "Prefix";
             }
-            return composite; // Hejx6
+            return composite; // Hejx7
         }
     }
 }
