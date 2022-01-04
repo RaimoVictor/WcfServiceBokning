@@ -24,7 +24,7 @@ namespace WcfServiceBokning
             }
             if (composite.BoolValue)
             {
-                composite.StringValue += "Suffix";
+                composite.StringValue += "Prefix";
             }
             return composite;
         }
